@@ -14,25 +14,51 @@ header {
 }
 
 .header-title-box {
-    height: 70%;
-    width: 100%;
-    background-color: darkblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 70%;
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .header-title {
-    font-style: italic;
-    font-weight: bold;
-    color: white;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
 }
 
-.header-second-box {
-    width: 100%;
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-description {
+  color: gold;
+
 }
 
+.article-second-box {
+  width: 10vh;
+  height: 100%;
+}
+
+.article-list {
+  width: 15vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: blueviolet;
+}
+
+.article-list > a {
+  box-sizing: content-box;
+  font-weight: bold;
+  color: gold;
+  text-decoration: none;
+}
+
+.article-list > li {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* cambiar padding del .header-list por alineación con FLEX */
