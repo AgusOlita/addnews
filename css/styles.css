@@ -26,3 +26,53 @@ header {
   color: gold;
 }
 
+.index-article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.economics-article {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+.economics-article img {
+  width: 500px;
+  height: auto;
+}
+
+.article-title {
+  font-size: 25px;
+  text-align: center;
+  margin: 1em 0 0.5em;
+}
+
+.article-description {
+  font-size: 14px;
+  text-align: justify;
+  padding: 1em 1em 1em;
+}
+
+.finance-article {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+.finance-article img {
+  width: 500px;
+  height: auto;
+}
