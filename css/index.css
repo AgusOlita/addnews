@@ -65,6 +65,11 @@ header {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .first-articles {
   width: 100%;
   display: flex;
