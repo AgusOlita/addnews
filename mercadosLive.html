@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mercadosLive.css">
+    <link rel="script" href="scripts/mercadosLive.js">
+    <title>ADD NEWS - FOREX LIVE</title>
+</head>
+<body>
+    <header class="liveMarkets-header">
+        <h1 class="header-title"></h1>
+        <h4 class="header-description"></h4>
+    </header>
+    <main>
+        <div id="chart-forex"></div>
+          <div class="form-inline">
+            <div class="form-group">
+              <label for="currency">Currency</label>
+              <select class="form-control" name="currency" id="currency">
+                <option value="GBPUSD">GBP(£)/USD($)</option>
+                <option value="EURUSD">EUR(€)/USD($)</option>
+                <option value="CHFUSD">CHF(Fr.)/USD($)</option>
+                <option value="DKKUSD">DKK(kr.)/USD($)</option>
+                <option value="SEKUSD">SEK(kr)/USD($)</option>
+                <option value="NOKUSD">NOK(kr)/USD($)</option>
+                <option value="RUBUSD">RUB(₽)/USD($)</option>
+                <option value="MXNUSD">MXN($)/USD($)</option>
+                <option value="CADUSD">CAD($)/USD($)</option>
+                <option value="AUDUSD">AUD($)/USD($)</option>
+                <option value="JPYUSD">JPY(¥)/USD($)</option>
+                <option value="CNYUSD">CNY(¥)/USD($)</option>
+                <option value="HKDUSD">HKD($)/USD($)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Live
+              <a href="https://en.wikipedia.org/wiki/Foreign_exchange_market"
+                >FOREX</a
+              >
+              data provided by <a href="https://yahoo.com">Yahoo</a>, every 2
+              seconds.
+            </p>
+          </div>
+        </div>
+        <script
+          type="text/javascript"
+          src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="//cdnjs.cloudflare.com/ajax/libs/dc/1.7.5/dc.min.js"
+        ></script>
+    </main>
+</body>
+</html>
